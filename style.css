@@ -1,0 +1,114 @@
+body{
+    background-color:#209CEE;
+    color: #fff;
+}
+table{
+    border: solid 1px rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin: auto;
+}
+#canvas{
+    border: none
+}
+td{
+    border: solid 1px rgb(255, 255, 255);  
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    vertical-align: center;
+    font: monospace 18pt;
+    position: relative;
+}
+.pixel-index{
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: rgb(230, 230, 230);
+    font-size: 8pt;
+}
+#structure{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    width: 150px;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 5px;
+}
+input[type=number]{
+    width: 50px;
+    position: absolute;
+    right: 10%;
+    text-align: center;
+}
+input[type=button]{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    border-radius: 5px
+}
+.obs{
+    width: 60%;
+}
+.paragrafo{
+    font-size: 18pt;
+}
+#resultado{
+    text-align: center;
+    line-height: 5vh;
+    font-size: 14pt;
+    margin: 15px auto;
+    width: 10%;
+    height: 5vh;
+    background-color: #ffffff54;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px #000000;
+    border-radius: 5px;
+}
+
+.menos{
+    border: 0;
+    width: 5%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
+.mais{
+    border: 0;
+    width: 5%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
+.zerar{
+    border: 0;
+    width: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
+@media only screen and (max-width: 700px){
+    #structure{
+    position: absolute;
+    right: 1%;
+    top: 85%;
+    width: 150px;
+    height: max-content;
+    border: none;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 5px;
+ }
+ td{
+    border: solid 1px rgb(255, 255, 255);  
+    width: 20vw;
+    height: 15vh;
+    text-align: center;
+    vertical-align: center;
+    font: monospace 18pt;
+    position: relative;
+}
+}
